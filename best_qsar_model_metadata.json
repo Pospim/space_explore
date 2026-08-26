@@ -1,0 +1,42 @@
+{
+  "selected_model": "random_forest",
+  "selected_search": "bayesian",
+  "descriptor_columns": [
+    "MolWt",
+    "HeavyAtomCount",
+    "MolMR",
+    "MolLogP",
+    "TPSA",
+    "HBD",
+    "HBA",
+    "RotatableBonds",
+    "FractionCSP3",
+    "RingCount",
+    "AromaticRings",
+    "AliphaticRings",
+    "Heteroatoms",
+    "BertzCT"
+  ],
+  "best_params": {
+    "model__bootstrap": true,
+    "model__max_depth": 10,
+    "model__max_features": 0.31841444517679757,
+    "model__min_samples_leaf": 1,
+    "model__min_samples_split": 4,
+    "model__n_estimators": 333
+  },
+  "cv_rmse": 0.8733431511898159,
+  "validation_metrics": {
+    "rmse": 0.7688495129872798,
+    "mae": 0.5949169170369374,
+    "r2": 0.49132234389966123
+  },
+  "test_metrics": {
+    "rmse": 0.8278983904309725,
+    "mae": 0.6224033828354896,
+    "r2": 0.4030499066183325
+  },
+  "random_iterations": 12,
+  "bayes_iterations": 18,
+  "cv_folds": 3
+}

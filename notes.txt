@@ -1,0 +1,9 @@
+1. cleam
+2. standardize
+3. descriptors
+4. scaffold
+5. scaffold split
+6. Domain applicability?
+   SVM?
+7. QSAR
+8. try with fingerprints
