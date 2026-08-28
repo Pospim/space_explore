@@ -1,6 +1,6 @@
 {
   "selected_model": "random_forest",
-  "selected_search": "bayesian",
+  "selected_search": "random",
   "descriptor_columns": [
     "MolWt",
     "HeavyAtomCount",
@@ -19,22 +19,22 @@
   ],
   "best_params": {
     "model__bootstrap": true,
-    "model__max_depth": 10,
-    "model__max_features": 0.31841444517679757,
-    "model__min_samples_leaf": 1,
-    "model__min_samples_split": 4,
-    "model__n_estimators": 333
+    "model__max_depth": 15,
+    "model__max_features": 0.40000677254535855,
+    "model__min_samples_leaf": 3,
+    "model__min_samples_split": 3,
+    "model__n_estimators": 403
   },
-  "cv_rmse": 0.8733431511898159,
+  "cv_rmse": 0.8860870622233629,
   "validation_metrics": {
-    "rmse": 0.7688495129872798,
-    "mae": 0.5949169170369374,
-    "r2": 0.49132234389966123
+    "rmse": 0.7896779317797665,
+    "mae": 0.6082808261925047,
+    "r2": 0.4633884981938794
   },
   "test_metrics": {
-    "rmse": 0.8278983904309725,
-    "mae": 0.6224033828354896,
-    "r2": 0.4030499066183325
+    "rmse": 0.8407939006694175,
+    "mae": 0.6365085626448255,
+    "r2": 0.3843086486697741
   },
   "random_iterations": 12,
   "bayes_iterations": 18,
