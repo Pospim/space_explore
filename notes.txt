@@ -1,4 +1,18 @@
-1. cleam
+New Notebook:
+- plot distributions of different descriptors
+- scaffolds, distributions per generator
+- Local MF + global descriptors
+- IC50 -> pIC50
+- binding assays only
+- filter low confidence
+- remove steroid-likes
+- random split VS scaffold split
+- KNN
+- CV (better for smaller datasets) vs HoldOut
+- MolPipeline Framework
+- visualize compounds
+
+1. clean
 2. standardize
 3. descriptors
 4. scaffold

@@ -2,3 +2,4 @@
 *.tsv
 zenodo_data
 *.json
+*.zip
