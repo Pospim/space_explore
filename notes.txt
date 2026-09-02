@@ -1,10 +1,6 @@
 New Notebook:
-- plot distributions of different descriptors
 - scaffolds, distributions per generator
 - Local MF + global descriptors
-- IC50 -> pIC50
-- binding assays only
-- filter low confidence
 - remove steroid-likes
 - random split VS scaffold split
 - KNN
